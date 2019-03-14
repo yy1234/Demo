@@ -14,4 +14,13 @@
 {
     NSLog(@"%s",__FUNCTION__);
 }
+
++(void)initialize
+{
+//    if (self == [Person class]) {
+//        NSLog(@"%s",__FUNCTION__);
+//    }
+    NSLog(@"%s",__FUNCTION__);
+    
+}
 @end

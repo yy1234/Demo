@@ -9,5 +9,12 @@
 #import "Person+Category3.h"
 
 @implementation Person (Category3)
-
++(void)load
+{
+    NSLog(@"%s",__FUNCTION__);
+}
++(void)initialize
+{
+    NSLog(@"%s",__FUNCTION__);
+}
 @end

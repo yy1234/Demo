@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1125FB2238FEA900DD3C72 /* Person+Category1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1125FA2238FEA900DD3C72 /* Person+Category1.m */; };
+		2F1125FE2238FEBE00DD3C72 /* Person+Category2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1125FD2238FEBE00DD3C72 /* Person+Category2.m */; };
+		2F1126012238FECF00DD3C72 /* Person+Category3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1126002238FECF00DD3C72 /* Person+Category3.m */; };
 		2F19B1E92238F7350086AAED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19B1E82238F7350086AAED /* AppDelegate.m */; };
 		2F19B1EC2238F7350086AAED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19B1EB2238F7350086AAED /* ViewController.m */; };
 		2F19B1EF2238F7350086AAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F19B1ED2238F7350086AAED /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 		2F19B1F72238F7370086AAED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19B1F62238F7370086AAED /* main.m */; };
 		2F19B2012238F7370086AAED /* LoadAndInitializeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19B2002238F7370086AAED /* LoadAndInitializeTests.m */; };
 		2F19B20C2238F7370086AAED /* LoadAndInitializeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19B20B2238F7370086AAED /* LoadAndInitializeUITests.m */; };
+		2F19B21B2238F7660086AAED /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19B21A2238F7660086AAED /* Person.m */; };
+		2F19B21E2238F7750086AAED /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19B21D2238F7750086AAED /* Student.m */; };
+		2F19B2212238F7890086AAED /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19B2202238F7890086AAED /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F1125F92238FEA900DD3C72 /* Person+Category1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Category1.h"; sourceTree = "<group>"; };
+		2F1125FA2238FEA900DD3C72 /* Person+Category1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Category1.m"; sourceTree = "<group>"; };
+		2F1125FC2238FEBE00DD3C72 /* Person+Category2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Category2.h"; sourceTree = "<group>"; };
+		2F1125FD2238FEBE00DD3C72 /* Person+Category2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Category2.m"; sourceTree = "<group>"; };
+		2F1125FF2238FECF00DD3C72 /* Person+Category3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Category3.h"; sourceTree = "<group>"; };
+		2F1126002238FECF00DD3C72 /* Person+Category3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Category3.m"; sourceTree = "<group>"; };
 		2F19B1E42238F7350086AAED /* LoadAndInitialize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadAndInitialize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F19B1E72238F7350086AAED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F19B1E82238F7350086AAED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,12 @@
 		2F19B2072238F7370086AAED /* LoadAndInitializeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadAndInitializeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F19B20B2238F7370086AAED /* LoadAndInitializeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadAndInitializeUITests.m; sourceTree = "<group>"; };
 		2F19B20D2238F7370086AAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F19B2192238F7660086AAED /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2F19B21A2238F7660086AAED /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2F19B21C2238F7750086AAED /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		2F19B21D2238F7750086AAED /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		2F19B21F2238F7890086AAED /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		2F19B2202238F7890086AAED /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,7 @@
 		2F19B1E62238F7350086AAED /* LoadAndInitialize */ = {
 			isa = PBXGroup;
 			children = (
+				2F19B22C2238FB380086AAED /* Load */,
 				2F19B1E72238F7350086AAED /* AppDelegate.h */,
 				2F19B1E82238F7350086AAED /* AppDelegate.m */,
 				2F19B1EA2238F7350086AAED /* ViewController.h */,
@@ -130,6 +149,33 @@
 				2F19B20D2238F7370086AAED /* Info.plist */,
 			);
 			path = LoadAndInitializeUITests;
+			sourceTree = "<group>";
+		};
+		2F19B2222238F7B10086AAED /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2F1125F92238FEA900DD3C72 /* Person+Category1.h */,
+				2F1125FA2238FEA900DD3C72 /* Person+Category1.m */,
+				2F1125FC2238FEBE00DD3C72 /* Person+Category2.h */,
+				2F1125FD2238FEBE00DD3C72 /* Person+Category2.m */,
+				2F1125FF2238FECF00DD3C72 /* Person+Category3.h */,
+				2F1126002238FECF00DD3C72 /* Person+Category3.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2F19B22C2238FB380086AAED /* Load */ = {
+			isa = PBXGroup;
+			children = (
+				2F19B2222238F7B10086AAED /* Category */,
+				2F19B2192238F7660086AAED /* Person.h */,
+				2F19B21A2238F7660086AAED /* Person.m */,
+				2F19B21C2238F7750086AAED /* Student.h */,
+				2F19B21D2238F7750086AAED /* Student.m */,
+				2F19B21F2238F7890086AAED /* Teacher.h */,
+				2F19B2202238F7890086AAED /* Teacher.m */,
+			);
+			path = Load;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F19B2212238F7890086AAED /* Teacher.m in Sources */,
 				2F19B1EC2238F7350086AAED /* ViewController.m in Sources */,
+				2F1126012238FECF00DD3C72 /* Person+Category3.m in Sources */,
 				2F19B1F72238F7370086AAED /* main.m in Sources */,
+				2F1125FB2238FEA900DD3C72 /* Person+Category1.m in Sources */,
+				2F19B21E2238F7750086AAED /* Student.m in Sources */,
+				2F19B21B2238F7660086AAED /* Person.m in Sources */,
 				2F19B1E92238F7350086AAED /* AppDelegate.m in Sources */,
+				2F1125FE2238FEBE00DD3C72 /* Person+Category2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
