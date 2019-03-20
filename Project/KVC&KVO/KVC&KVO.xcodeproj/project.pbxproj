@@ -15,6 +15,8 @@
 		2F11265C223A495600DD3C72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F11265B223A495600DD3C72 /* main.m */; };
 		2F112666223A495600DD3C72 /* KVC_KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F112665223A495600DD3C72 /* KVC_KVOTests.m */; };
 		2F112671223A495600DD3C72 /* KVC_KVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F112670223A495600DD3C72 /* KVC_KVOUITests.m */; };
+		2F112680223A4CE700DD3C72 /* Persion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F11267F223A4CE700DD3C72 /* Persion.m */; };
+		2F112683223B7B8400DD3C72 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F112682223B7B8400DD3C72 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2F11266C223A495600DD3C72 /* KVC&KVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVC&KVOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F112670223A495600DD3C72 /* KVC_KVOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVC_KVOUITests.m; sourceTree = "<group>"; };
 		2F112672223A495600DD3C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F11267E223A4CE700DD3C72 /* Persion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Persion.h; sourceTree = "<group>"; };
+		2F11267F223A4CE700DD3C72 /* Persion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Persion.m; sourceTree = "<group>"; };
+		2F112681223B7B8400DD3C72 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		2F112682223B7B8400DD3C72 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2F11264D223A495400DD3C72 /* AppDelegate.m */,
 				2F11264F223A495400DD3C72 /* ViewController.h */,
 				2F112650223A495400DD3C72 /* ViewController.m */,
+				2F11267E223A4CE700DD3C72 /* Persion.h */,
+				2F11267F223A4CE700DD3C72 /* Persion.m */,
+				2F112681223B7B8400DD3C72 /* Cat.h */,
+				2F112682223B7B8400DD3C72 /* Cat.m */,
 				2F112652223A495400DD3C72 /* Main.storyboard */,
 				2F112655223A495600DD3C72 /* Assets.xcassets */,
 				2F112657223A495600DD3C72 /* LaunchScreen.storyboard */,
@@ -262,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F112680223A4CE700DD3C72 /* Persion.m in Sources */,
 				2F112651223A495400DD3C72 /* ViewController.m in Sources */,
 				2F11265C223A495600DD3C72 /* main.m in Sources */,
 				2F11264E223A495400DD3C72 /* AppDelegate.m in Sources */,
+				2F112683223B7B8400DD3C72 /* Cat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

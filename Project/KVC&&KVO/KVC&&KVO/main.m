@@ -1,8 +1,8 @@
 //
 //  main.m
-//  KVC&KVO
+//  KVC&&KVO
 //
-//  Created by yang on 2019/3/14.
+//  Created by yang on 2019/3/15.
 //  Copyright © 2019 XingYeTechnology. All rights reserved.
 //
 
@@ -11,6 +11,6 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-//        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
