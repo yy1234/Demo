@@ -17,6 +17,11 @@
 		2F1127782248BFD500DD3C72 /* CoreAnimationAdvancedTechniquesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1127772248BFD500DD3C72 /* CoreAnimationAdvancedTechniquesUITests.m */; };
 		2F1127872248C73200DD3C72 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F1127862248C73100DD3C72 /* apple.jpg */; };
 		2F1127892248D1CE00DD3C72 /* Sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1127882248D1CE00DD3C72 /* Sprites.png */; };
+		2F1127CA2249FD2B00DD3C72 /* 3LayerGeometryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1127C92249FD2B00DD3C72 /* 3LayerGeometryViewController.m */; };
+		2F1127CF224A0EBF00DD3C72 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1127CB224A0EBE00DD3C72 /* 3.png */; };
+		2F1127D0224A0EBF00DD3C72 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1127CC224A0EBE00DD3C72 /* 2.png */; };
+		2F1127D1224A0EBF00DD3C72 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1127CD224A0EBE00DD3C72 /* 1.png */; };
+		2F1127D2224A0EBF00DD3C72 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1127CE224A0EBE00DD3C72 /* 4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,12 @@
 		2F1127792248BFD500DD3C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F1127862248C73100DD3C72 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
 		2F1127882248D1CE00DD3C72 /* Sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sprites.png; sourceTree = "<group>"; };
+		2F1127C82249FD2B00DD3C72 /* 3LayerGeometryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 3LayerGeometryViewController.h; sourceTree = "<group>"; };
+		2F1127C92249FD2B00DD3C72 /* 3LayerGeometryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = 3LayerGeometryViewController.m; sourceTree = "<group>"; };
+		2F1127CB224A0EBE00DD3C72 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		2F1127CC224A0EBE00DD3C72 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2F1127CD224A0EBE00DD3C72 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2F1127CE224A0EBE00DD3C72 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +121,8 @@
 				2F1127542248BFD300DD3C72 /* AppDelegate.m */,
 				2F1127562248BFD300DD3C72 /* ViewController.h */,
 				2F1127572248BFD300DD3C72 /* ViewController.m */,
+				2F1127C82249FD2B00DD3C72 /* 3LayerGeometryViewController.h */,
+				2F1127C92249FD2B00DD3C72 /* 3LayerGeometryViewController.m */,
 				2F1127592248BFD300DD3C72 /* Main.storyboard */,
 				2F11275C2248BFD500DD3C72 /* Assets.xcassets */,
 				2F11275E2248BFD500DD3C72 /* LaunchScreen.storyboard */,
@@ -140,6 +153,10 @@
 		2F1127852248C72600DD3C72 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				2F1127CD224A0EBE00DD3C72 /* 1.png */,
+				2F1127CC224A0EBE00DD3C72 /* 2.png */,
+				2F1127CB224A0EBE00DD3C72 /* 3.png */,
+				2F1127CE224A0EBE00DD3C72 /* 4.png */,
 				2F1127882248D1CE00DD3C72 /* Sprites.png */,
 				2F1127862248C73100DD3C72 /* apple.jpg */,
 			);
@@ -249,9 +266,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1127D2224A0EBF00DD3C72 /* 4.png in Resources */,
 				2F1127602248BFD500DD3C72 /* LaunchScreen.storyboard in Resources */,
+				2F1127D1224A0EBF00DD3C72 /* 1.png in Resources */,
 				2F11275D2248BFD500DD3C72 /* Assets.xcassets in Resources */,
+				2F1127D0224A0EBF00DD3C72 /* 2.png in Resources */,
 				2F1127872248C73200DD3C72 /* apple.jpg in Resources */,
+				2F1127CF224A0EBF00DD3C72 /* 3.png in Resources */,
 				2F11275B2248BFD300DD3C72 /* Main.storyboard in Resources */,
 				2F1127892248D1CE00DD3C72 /* Sprites.png in Resources */,
 			);
@@ -278,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1127CA2249FD2B00DD3C72 /* 3LayerGeometryViewController.m in Sources */,
 				2F1127582248BFD300DD3C72 /* ViewController.m in Sources */,
 				2F1127632248BFD500DD3C72 /* main.m in Sources */,
 				2F1127552248BFD300DD3C72 /* AppDelegate.m in Sources */,
