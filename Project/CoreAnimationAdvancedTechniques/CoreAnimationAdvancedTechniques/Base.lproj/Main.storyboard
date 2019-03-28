@@ -72,13 +72,32 @@
                                             <segue destination="5vF-bU-AsB" kind="show" id="Aif-2A-gKi"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Wul-Zt-Jzd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="Wul-Zt-Jzd">
                                         <rect key="frame" x="0.0" y="100" width="375" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wul-Zt-Jzd" id="2ao-q7-Tdc">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="49.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="49.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="视觉效果" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U53-iX-VZA">
+                                                    <rect key="frame" x="36" y="14.5" width="117" height="20.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="117" id="S9i-4a-Dxb"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="U53-iX-VZA" firstAttribute="leading" secondItem="2ao-q7-Tdc" secondAttribute="leadingMargin" constant="20" id="VKw-xy-tcT"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="U53-iX-VZA" secondAttribute="bottom" constant="4" id="h5D-79-grc"/>
+                                                <constraint firstItem="U53-iX-VZA" firstAttribute="centerY" secondItem="2ao-q7-Tdc" secondAttribute="centerY" id="tGm-g5-Paa"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ciJ-xn-LEy" kind="show" id="EXK-W9-ClX"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -92,7 +111,77 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZlP-MX-vVM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-804" y="-183.95802098950526"/>
+            <point key="canvasLocation" x="-1423.2" y="-162.3688155922039"/>
+        </scene>
+        <!--Visual Effect View Controller-->
+        <scene sceneID="Gc3-au-yfe">
+            <objects>
+                <viewController id="ciJ-xn-LEy" customClass="_VisualEffectViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pHv-vv-99T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DPU-A0-f3E">
+                                <rect key="frame" x="234" y="144" width="112" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eFd-hF-98G">
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="93"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yf4-4x-jNk">
+                                                <rect key="frame" x="-55" y="-27" width="100" height="84"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.3528354433" blue="0.36430999040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7W4-YD-4lH">
+                                <rect key="frame" x="37" y="145" width="112" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Syg-qO-ADZ">
+                                        <rect key="frame" x="-29" y="-29" width="100" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.3528354433" blue="0.36430999040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Am0-XH-oq0">
+                                <rect key="frame" x="41" y="294" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a2T-ZQ-sFj">
+                                <rect key="frame" x="234" y="294" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="core.png" translatesAutoresizingMaskIntoConstraints="NO" id="yGI-Xe-H0u">
+                                <rect key="frame" x="130" y="429" width="115" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="iQf-qX-nCW"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="yGI-Xe-H0u" id="c7t-gL-Htl"/>
+                        <outlet property="layerView1" destination="7W4-YD-4lH" id="yMT-e0-tPJ"/>
+                        <outlet property="layerView2" destination="eFd-hF-98G" id="wUf-kJ-DU7"/>
+                        <outlet property="shadowView" destination="DPU-A0-f3E" id="S8F-zg-AHx"/>
+                        <outlet property="shaowPAth2" destination="a2T-ZQ-sFj" id="faS-e4-vn8"/>
+                        <outlet property="shaowPath1" destination="Am0-XH-oq0" id="HBQ-BX-NV4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ekm-j9-PLW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-804" y="463.71814092953525"/>
         </scene>
         <!--Layer Geometry View Controller-->
         <scene sceneID="UjY-p6-2qx">
@@ -142,7 +231,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dEE-v1-gaR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5.5999999999999996" y="362.96851574212894"/>
+            <point key="canvasLocation" x="14" y="85"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WOL-dP-jxg">
@@ -158,7 +247,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hbg-hm-KEv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1262" y="-62"/>
+            <point key="canvasLocation" x="-2068" y="-135"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -202,7 +291,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="182" y="-304"/>
+            <point key="canvasLocation" x="-271" y="-594"/>
         </scene>
     </scenes>
     <resources>
@@ -210,5 +299,6 @@
         <image name="2.png" width="340" height="696"/>
         <image name="3.png" width="322" height="792"/>
         <image name="4.png" width="274" height="792"/>
+        <image name="core.png" width="668" height="562"/>
     </resources>
 </document>
