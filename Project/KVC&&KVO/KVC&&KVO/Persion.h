@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Persion : NSObject
 
+@property (nonatomic,copy)NSString *name;
+
+
+- (void)increase;
 @end
 
 NS_ASSUME_NONNULL_END

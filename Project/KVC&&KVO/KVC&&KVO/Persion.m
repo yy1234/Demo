@@ -15,6 +15,34 @@
 @implementation Persion {
     Book *_cat;
 }
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _name = @"1";
+    }
+    return self;
+}
+
+
+- (void)setName:(NSString *)name {
+    _name = name;
+
+}
+
+-(void)increase {
+    [self willChangeValueForKey:@"name"];
+    _name = @"3";
+    [self didChangeValueForKey:@"name"];
+}
+
+
+
+
+
+
+
+
 /*
  重写下面2个方法可以避免程序奔溃
  */

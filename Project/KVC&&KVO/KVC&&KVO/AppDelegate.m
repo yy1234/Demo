@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Persion.h"
+#import "Book.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    Persion *persion = [[Persion alloc] init];
+    Book *book = [[Book alloc] init];
+    [persion addObserver:book forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
+//    persion.name = @"2";
+    /*
+     kvo实现原理
+     系统观察者模式的实现
+     利用isa婚鞋技术，重写原有类的set方法，再把原有类的指针指向新的子类
+     */
+    //通过kvc触发kvo
+    [persion setValue:@"2" forKey:@"name"];
+    
+    //给属性赋值是不能触发kvo的，只能重写相关的方法，手动触发
+    [persion increase];
+    
+    
     return YES;
 }
 

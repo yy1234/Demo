@@ -18,8 +18,12 @@ class ImageSelectViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-
+        let strArr = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+        let arr = strArr.filter { (item) in
+            Int(item)!%2 == 0
+            }.compactMap{Int($0)}
+        print(arr)
+        return
 //        Observable.of("1","2","3","4","5","6","7","8","9","10")
         
         var evenNumberObservable = Observable.from(["1", "2", "3", "4", "5", "6", "7", "8", "9"])

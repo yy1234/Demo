@@ -17,6 +17,9 @@
 		2F38DF472265CA71005989F2 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F38DF462265CA71005989F2 /* SimpleValidationViewController.swift */; };
 		2F38DF492266D160005989F2 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F38DF482266D160005989F2 /* ImageSelectViewController.swift */; };
 		2F38DF4B2266FA5B005989F2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F38DF4A2266FA5B005989F2 /* TableViewController.swift */; };
+		2FDF898E228E534800500FBF /* ObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDF898D228E534800500FBF /* ObservableViewController.swift */; };
+		2FDF8990228E82D300500FBF /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDF898F228E82D300500FBF /* CreateViewController.swift */; };
+		2FDF8992228E8A3D00500FBF /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDF8991228E8A3D00500FBF /* SubjectViewController.swift */; };
 		532F3A8FFD05E01411292293 /* Pods_RX_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099652D6176698DB383CABE3 /* Pods_RX_Swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,9 @@
 		2F38DF462265CA71005989F2 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
 		2F38DF482266D160005989F2 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
 		2F38DF4A2266FA5B005989F2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2FDF898D228E534800500FBF /* ObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewController.swift; sourceTree = "<group>"; };
+		2FDF898F228E82D300500FBF /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		2FDF8991228E8A3D00500FBF /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
 		B96F16E8498C808225CCB598 /* Pods-RX_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RX_Swift.debug.xcconfig"; path = "Target Support Files/Pods-RX_Swift/Pods-RX_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		E430CADA0826AA1AD437C155 /* Pods-RX_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RX_Swift.release.xcconfig"; path = "Target Support Files/Pods-RX_Swift/Pods-RX_Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +121,9 @@
 				2F38DF4A2266FA5B005989F2 /* TableViewController.swift */,
 				2F38DF462265CA71005989F2 /* SimpleValidationViewController.swift */,
 				2F38DF482266D160005989F2 /* ImageSelectViewController.swift */,
+				2FDF898D228E534800500FBF /* ObservableViewController.swift */,
+				2FDF898F228E82D300500FBF /* CreateViewController.swift */,
+				2FDF8991228E8A3D00500FBF /* SubjectViewController.swift */,
 				2F38DF1C2265C687005989F2 /* Main.storyboard */,
 				2F38DF1F2265C688005989F2 /* Assets.xcassets */,
 				2F38DF212265C688005989F2 /* LaunchScreen.storyboard */,
@@ -341,8 +350,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F38DF492266D160005989F2 /* ImageSelectViewController.swift in Sources */,
+				2FDF898E228E534800500FBF /* ObservableViewController.swift in Sources */,
+				2FDF8990228E82D300500FBF /* CreateViewController.swift in Sources */,
 				2F38DF1B2265C687005989F2 /* ViewController.swift in Sources */,
 				2F38DF192265C687005989F2 /* AppDelegate.swift in Sources */,
+				2FDF8992228E8A3D00500FBF /* SubjectViewController.swift in Sources */,
 				2F38DF4B2266FA5B005989F2 /* TableViewController.swift in Sources */,
 				2F38DF472265CA71005989F2 /* SimpleValidationViewController.swift in Sources */,
 			);
