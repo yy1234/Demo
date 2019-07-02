@@ -1,0 +1,6 @@
+framework module Pods_CocoaSyncSocket {
+  umbrella header "Pods-CocoaSyncSocket-umbrella.h"
+
+  export *
+  module * { export * }
+}
