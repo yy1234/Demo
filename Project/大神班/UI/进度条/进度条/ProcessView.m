@@ -23,7 +23,6 @@
     CGFloat raduis = rect.size.width/2 - 30;
     UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:center radius:raduis startAngle:startA endAngle:endA clockwise:YES];
     path.lineWidth = 5;
-    [[UIColor blueColor] setStroke];
     [path stroke];
 }
 
