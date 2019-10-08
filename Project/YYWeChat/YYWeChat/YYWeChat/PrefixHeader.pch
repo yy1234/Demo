@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  YYWeChat
+//
+//  Created by yang on 2019/7/11.
+//  Copyright © 2019 XingYeTechnology. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "TLKitExtension.h"
+#import "ZZFLEX.h"
+
+#import <Masonry/Masonry.h>
+#import <UMMobClick/MobClick.h>
+#import <TLKit/TLKit.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+
+static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+
+#endif /* PrefixHeader_pch */
